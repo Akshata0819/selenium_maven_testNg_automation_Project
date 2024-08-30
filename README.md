@@ -1,4 +1,14 @@
-Sure! Here's a more engaging and visually appealing description based on the refined code:
+👋 Hi there! I'm Akshata Rahate
+
+🎓 Freshly graduated with a degree in Computer Science Engineering.
+
+💻 Proficient in:
+
+Core Java Automation Testing with Selenium C# .NET SQL 🚀 Passionate about developing robust software solutions and automating testing processes.
+
+🌱 Currently enhancing my skills in full-stack development and cloud technologies.
+
+📫 Let's connect and collaborate on exciting projects!
 
 ---
 
