@@ -1,35 +1,43 @@
-👋 Hi there! I'm Akshata Rahate
+👋 **Hi there! I'm Akshata Rahate**
 
-🎓 Freshly graduated with a degree in Computer Science Engineering.
+🎓 **Freshly graduated** with a degree in Computer Science Engineering.
 
-💻 Proficient in:
+💻 **Proficient in:**
+- Core Java
+- Automation Testing with Selenium
+- C# .NET
+- SQL
 
-Core Java Automation Testing with Selenium C# .NET SQL 🚀 Passionate about developing robust software solutions and automating testing processes.
+🚀 **Passionate** about developing robust software solutions and automating testing processes.
 
-🌱 Currently enhancing my skills in full-stack development and cloud technologies.
+🌱 Currently enhancing my skills in **full-stack development** and **cloud technologies**.
 
-📫 Let's connect and collaborate on exciting projects!
+📫 **Let’s connect** and collaborate on exciting projects!
 
 ---
 
-### 🚀 **Amazon Homepage Automated Testing Suite**
+### # Amazon Homepage Test Automation
 
-**Description:**
-Dive into automated testing with our sophisticated **Amazon Homepage Test Suite**. This project integrates **Selenium WebDriver** and **TestNG** to ensure the seamless functionality of Amazon's landing page.
+**Overview:**
+Created an automated testing suite for Amazon's homepage using **Selenium WebDriver** and **Java**. This suite ensures the homepage's title and logo are validated correctly, contributing to the reliability and quality of the web application.
 
-**🔍 **What This Suite Does:**
-- **🔧 Browser Automation:** Utilizes **ChromeDriver** to automate interactions with the Amazon homepage.
-- **📊 Title Verification:** Ensures the page title matches the expected value, confirming that the correct page is loaded.
-- **🖼️ Logo Validation:** Checks the visibility of the Amazon logo to guarantee it's displayed correctly.
+**🔗 Test Details:**
+- **Amazon URL:** [https://amazon.in](https://amazon.in)
 
-**💡 Key Features:**
-- **✨ Enhanced Readability:** Clean and well-commented code for easier understanding and maintenance.
-- **⚙️ Configuration Constants:** Centralized paths and locators for simplified adjustments and scalability.
-- **🔒 Safe Teardown:** Ensures proper closure of the browser session only if it was initialized.
+**🔍 Responsibilities:**
+1. **Page Title Verification:** 
+   - Automated validation of the page title to ensure it matches the expected value using `Assert.assertEquals()`.
+2. **Logo Display Check:** 
+   - Confirmed the presence of the Amazon logo on the homepage using `findElement()` and `isDisplayed()`.
+3. **Setup and Teardown:** 
+   - Initialized the ChromeDriver and configured browser settings before each test.
+   - Ensured a clean browser exit after each test to maintain test environment integrity.
 
-**🔧 **Setup and Execution:**
-1. **Setup:** Initializes the ChromeDriver, opens Amazon's homepage, and configures the browser.
-2. **Tests:** 
-   - **`verifyTitle()`:** Validates that the page title matches the expected title for Amazon India.
-   - **`verifyLogo()`:** Confirms that the Amazon logo is visible on the page.
-3. **Teardown:** Cleans up by closing the browser after test execution.
+**🛠️ Tools and Technologies:**
+- Selenium WebDriver
+- Java
+- TestNG
+- Maven (assumed for project management, though not explicitly used in the provided code)
+
+**🏆 Achievements:**
+- Ensured critical elements of the Amazon homepage are validated for accuracy and visibility, supporting a robust user experience.
